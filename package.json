@@ -1,0 +1,22 @@
+{
+  "name": "personalSite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node "
+    "serve": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beezy12/personalSite.git"
+  },
+  "keywords": [],
+  "author": "Brian Stumbaugh <brian.stumbaugh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beezy12/personalSite/issues"
+  },
+  "homepage": "https://github.com/beezy12/personalSite#readme"
+}
