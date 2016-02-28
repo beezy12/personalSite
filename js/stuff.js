@@ -1,4 +1,4 @@
-$(document).ready(function() {
+;$(document).ready(function() {
 
 
 
@@ -10,17 +10,17 @@ $(document).ready(function() {
         $hi.css({'visibility': 'hidden'});
     }, 10000);
 
-    $intro = $('.intro');
-    $intro.hide();
+    $aboutMe = $('.aboutMe');
+    $aboutMe.hide();
     var timeOut = setTimeout(function() {
-        $intro.fadeIn();
-    }, 2000);
+        $aboutMe.fadeIn();
+    }, 3000);
 
-    $deal = $('.deal');
-    $deal.hide();
+    $myProfile = $('.myProfile');
+    $myProfile.hide();
     var timeOut = setTimeout(function() {
-        $deal.fadeIn();
-    }, 7000);
+        $myProfile.fadeIn();
+    }, 2000);
 
     $first = $('#firstUrl');
     $second = $('#secondUrl');
