@@ -10,30 +10,38 @@ body {
     background-color: #00FF7F;
 }
 
+.mePic {
+    margin-top: 240px;
+    margin-left:20px;
+}
 
 .myProfile {
     border: 2px solid black;
     border-radius: 50%;
 }
 
-#aboutMe {
+#aboutMe, #aboutMe2, #aboutMe3 {
     font-size: 2em;
     position: absolute;
 }
 
-#aboutMe2 {
+/*#aboutMe2 {
     font-size: 2em;
     position: absolute;
-}
+}*/
 
 .greeny {
     background-color: #00FF7F;
-    height: 100%;
+    height: 750px;
 }
 
 .black {
     background-color: #000;
-    height: 100%;
+    height: 750px;
+}
+
+.myText {
+    color: white;
 }
 /*.tech {
     font-size: 15rem;
