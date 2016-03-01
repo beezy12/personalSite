@@ -15,8 +15,14 @@ body {
     border-radius: 50%;
 }
 
-.aboutMe {
+#aboutMe {
     font-size: 2em;
+    position: absolute;
+}
+
+#aboutMe2 {
+    font-size: 2em;
+    position: absolute;
 }
 /*.tech {
     font-size: 15rem;
