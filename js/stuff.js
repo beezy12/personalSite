@@ -9,19 +9,19 @@ $(document).ready(function() {
     //     $hi.css({'visibility': 'hidden'});
     // }, 6000);
 
-    // $("#aboutMe2").hide();
+    $("#aboutMe2").hide();
 
-    // function hide1() {
-    //     $("#aboutMe").fadeIn(1000);
-    //     $("#aboutMe").fadeOut(1000, hide2);
-    // }
+    function hide1() {
+        $("#aboutMe").fadeIn(1000);
+        $("#aboutMe").fadeOut(1000, hide2);
+    }
 
-    // function hide2() {
+    function hide2() {
 
-    //     $("#aboutMe2").fadeIn(1000);
-    //     $("#aboutMe2").fadeOut(1000, hide1);
-    // }
-    // hide1();
+        $("#aboutMe2").fadeIn(1000);
+        $("#aboutMe2").fadeOut(1000, hide1);
+    }
+    hide1();
 
     $aboutMe = $('.aboutMe');
     $aboutMe.hide();

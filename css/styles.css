@@ -10,6 +10,7 @@ body {
     background-color: #00FF7F;
 }
 
+
 .myProfile {
     border: 2px solid black;
     border-radius: 50%;
@@ -23,6 +24,16 @@ body {
 #aboutMe2 {
     font-size: 2em;
     position: absolute;
+}
+
+.greeny {
+    background-color: #00FF7F;
+    height: 100%;
+}
+
+.black {
+    background-color: #000;
+    height: 100%;
 }
 /*.tech {
     font-size: 15rem;
