@@ -10,7 +10,9 @@ $(document).ready(function() {
     // }, 6000);
 
 
+    var timeOut = setTimeout(function() {
 
+    })
 
     var $aboutMe = $('#aboutMe');
     var $aboutMe2 = $('#aboutMe2');
@@ -21,8 +23,8 @@ $(document).ready(function() {
 
     function hide1() {
 
-        $aboutMe.delay('slow').fadeIn(1000);
-        $aboutMe.fadeOut(2000, hide2);
+        $aboutMe.delay(2000).fadeIn(1000);
+        $aboutMe.fadeOut(1000, hide2);
     }
 
 
@@ -30,14 +32,12 @@ $(document).ready(function() {
     function hide2() {
 
         $aboutMe2.fadeIn(1000);
-        $aboutMe2.fadeOut(2000, hide3);
+        $aboutMe2.delay(2000).fadeOut(1000, hide3);
     }
 
     function hide3() {
 
         $aboutMe3.fadeIn(1000);
-        // $aboutMe3.fadeOut(2000);
-
     }
 
     hide1();

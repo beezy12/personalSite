@@ -6,13 +6,14 @@ body {
 }
 
 body {
-    font-family: "Orbitron","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #00FF7F;
+    font-family: "Jura","Cardo","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #00CCFF;
 }
 
 .mePic {
-    margin-top: 240px;
+    margin-top: 140px;
     margin-left:20px;
+    margin-bottom: 30px;
 }
 
 .myProfile {
@@ -23,15 +24,11 @@ body {
 #aboutMe, #aboutMe2, #aboutMe3 {
     font-size: 2em;
     position: absolute;
+    margin-left:20px;
 }
 
-/*#aboutMe2 {
-    font-size: 2em;
-    position: absolute;
-}*/
-
 .greeny {
-    background-color: #00FF7F;
+    background-color: #00CCFF;
     height: 750px;
 }
 
@@ -43,21 +40,6 @@ body {
 .myText {
     color: white;
 }
-/*.tech {
-    font-size: 15rem;
-    margin-top: 30px;
-}*/
-
-/*.me {
-    color: #00FF00;
-}*/
-
-/*.name {
-    background-color: #071340;
-    width: 400px;
-    margin-left: 450px;
-    border-radius: 10px;
-}*/
 
 .below {
     margin-bottom: 50px;
