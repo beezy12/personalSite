@@ -29,12 +29,12 @@ body {
 
 .greeny {
     background-color: #00CCFF;
-    height: 750px;
+    height: 100vh;
 }
 
 .black {
     background-color: #000;
-    height: 750px;
+    height: 100vh;
 }
 
 .myText {
@@ -43,6 +43,11 @@ body {
 
 .below {
     margin-bottom: 50px;
+    color: black;
+}
+
+.myEmail {
+    font-size: 1.5em;
 }
 
 .hi {
@@ -58,6 +63,10 @@ body {
   margin-left: 210px;
   background-color: black;
   color: white; }
+
+.techName {
+    color: black;
+}
 
 .text-vertical-center {
     display: table-cell;
@@ -217,6 +226,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    background-color: white;
 }
 
 .service-item {
