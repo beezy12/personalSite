@@ -57,16 +57,19 @@ body {
 .enter {
   margin-top: 40px; }
 
-.butt {
-  border-radius: 5px;
-  margin-top: 20px;
-  margin-left: 210px;
-  background-color: black;
-  color: white; }
+.rowSpace {
+    margin-bottom: 50px;
+
+}
+
+.also {
+    color: black;
+}
 
 .techName {
     color: black;
 }
+
 
 .text-vertical-center {
     display: table-cell;
@@ -113,6 +116,7 @@ body {
 
 hr.small {
     max-width: 100px;
+    /*background-color: red;*/
 }
 
 /* Side Menu */
