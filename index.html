@@ -20,7 +20,8 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cardo|Jura' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Cardo|Jura' rel='stylesheet' type='text/css'> -->
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:400,500,700' rel='stylesheet' type='text/css'>
 
 
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
@@ -40,7 +41,7 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<!--     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -63,14 +64,15 @@
                 <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
             </li>
         </ul>
-    </nav>
+    </nav> -->
 
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
             <div class="name">
                 <h1 class="me">Brian Stumbaugh</h1>
-                <h3 class="me">Web Developer / Node.js</h3>
+                <h3 class="meToo">Junior Web Developer
+                <h4 class="meToo"> Javascript / Node.js</h3>
                 <br>
                 <!-- <a href="#about" class="btn btn-dark btn-lg">About Me</a> -->
             </div>
@@ -320,17 +322,19 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2>Projects</h2>
                     <hr class="small">
-                    <div class="row">
+                    <div class="row myThings">
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://pure-garden-51539.herokuapp.com/#/">
-                                    <img class="img-portfolio img-responsive picBorder" src="img/scribe.jpg">
-                                </a>
-                            </div>
-                            <div>
-                                <h1>Scribe</h1>
-                                <p>An elegant journaling app.
-                            </div>
+                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                                <div class="portfolio-item">
+                                    <img src="img/scribe.jpg" class="img-responsive img-portfolio" alt="">
+                                    <!-- <div class="portfolio-hover-content">
+                                        <i class="fa fa-eye fa-3x"></i>
+                                    </div> -->
+                                </div>
+                                <!-- <div>
+                                    <h2>Scribe</h2>
+                                </div> -->
+                            </a>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
@@ -349,7 +353,7 @@
 
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">Back to the top</a>
+                    <!-- <a href="#" class="btn btn-dark">Back to the top</a> -->
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -364,14 +368,13 @@
         <div class="container theEnd" id="contact">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Brian Stumbaugh</strong>
-                    </h4>
-                    <p>Nashville, TN</p>
+
                     <ul class="list-unstyled myEmail">
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:brian.stumbaugh@gmail.com">brian.stumbaugh@gmail.com</a>
+                        <li>
+                            <a href="mailto:brian.stumbaugh@gmail.com"><i class="fa fa-envelope-o fa-fw env"></i>brian.stumbaugh@gmail.com</a>
                         </li>
                     </ul>
-                    <br>
+
                     <ul class="list-inline">
                         <li>
                             <a href="https://github.com/beezy12"><i class="fa fa-github fa-fw fa-3x"></i></a>
@@ -391,7 +394,7 @@
     </footer>
 
 
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -404,11 +407,11 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                            <h2>Scribe</h2>
+                            <p class="item-intro text-muted">MEAN stack web application</p>
+                            <img class="img-responsive img-centered" src="img/scribe.jpg" alt="">
                             <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="https://pure-garden-51539.herokuapp.com/#/">Here</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
